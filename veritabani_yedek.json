@@ -1,0 +1,310 @@
+{
+  "settings": [
+    {
+      "id": 1,
+      "setting_key": "site_title",
+      "setting_value": "CİHAN UNAT",
+      "description": "Sitenin tarayÄ±cÄ± baÅŸlÄ±ÄŸÄ±",
+      "updated_at": "2026-02-22T13:07:48.000Z"
+    },
+    {
+      "id": 2,
+      "setting_key": "hero_text",
+      "setting_value": "Hatırasına saygıyla...",
+      "description": "Ana sayfada gÃ¶rÃ¼necek ana sÃ¶z",
+      "updated_at": "2026-02-22T11:36:35.000Z"
+    },
+    {
+      "id": 3,
+      "setting_key": "hero_image",
+      "setting_value": "/hero-artistd.jpg",
+      "description": "Ana sayfadaki bÃ¼yÃ¼k gÃ¶rselin URL'si",
+      "updated_at": "2026-02-21T22:48:01.000Z"
+    },
+    {
+      "id": 4,
+      "setting_key": "theme_dark",
+      "setting_value": "#1a1a1a",
+      "description": "Koyu tema arka plan rengi",
+      "updated_at": "2026-02-21T19:03:33.000Z"
+    },
+    {
+      "id": 5,
+      "setting_key": "theme_gold",
+      "setting_value": "#D4AF37",
+      "description": "AltÄ±n sarÄ±sÄ± vurgu rengi",
+      "updated_at": "2026-02-21T19:03:33.000Z"
+    },
+    {
+      "id": 6,
+      "setting_key": "show_home_banner",
+      "setting_value": "false",
+      "description": null,
+      "updated_at": "2026-02-21T22:58:28.000Z"
+    },
+    {
+      "id": 7,
+      "setting_key": "slideshow_music",
+      "setting_value": "/music/slideshow_music.mp3?v=1771785605121",
+      "description": "Slayt Gösterisi Arka Plan Müziği",
+      "updated_at": "2026-02-22T18:40:18.000Z"
+    },
+    {
+      "id": 8,
+      "setting_key": "hero_subtext",
+      "setting_value": "Cihan Unat’ın sanat yolculuğu;\nbir bestekârın, bir eğitimcinin,\nbir gönül insanının hikâyesidir.",
+      "description": null,
+      "updated_at": "2026-02-22T20:38:06.000Z"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "slug": "fotograflar",
+      "title": "Fotoğraflar",
+      "content": "Geçmişten günümüze Cihan Unat'a ait fotoğraflar.",
+      "is_active": 1,
+      "order_index": 3,
+      "created_at": "2026-02-21T19:03:33.000Z",
+      "updated_at": "2026-02-22T20:41:36.000Z"
+    },
+    {
+      "id": 2,
+      "slug": "videolar",
+      "title": "Videolar",
+      "content": "Geçmişten günümüze Cihan Unat'a ait videolar.",
+      "is_active": 1,
+      "order_index": 2,
+      "created_at": "2026-02-21T19:03:33.000Z",
+      "updated_at": "2026-02-22T20:38:58.000Z"
+    },
+    {
+      "id": 3,
+      "slug": "ani-defteri",
+      "title": "Anı Defteri",
+      "content": "Cihan Unat ile ilgili duygularınızı ve anılarınızı paylaşabilir ve yazılanları okuyabilirsiniz.\n",
+      "is_active": 1,
+      "order_index": 5,
+      "created_at": "2026-02-21T19:03:33.000Z",
+      "updated_at": "2026-02-22T20:41:52.000Z"
+    },
+    {
+      "id": 5,
+      "slug": "biyografi",
+      "title": "Biyografi",
+      "content": "<p>05 Mart 1958 tarihinde dünyaya gelen Cihan Unat, yaşamının anlamını notalarda bulan; müziği yalnızca icra eden değil, onu yaşayan ve yaşatan bir sanat insanıydı.</p>\n\n<p>Eğitimini İstanbul Teknik Üniversitesi Türk Musikisi Devlet Konservatuvarı’nda tamamlayan Unat, konservatuvar yıllarından itibaren hem sahnede hem stüdyoda üretken bir sanat yolculuğu sürdürdü. 1980’li yıllarda müzisyen arkadaşlarıyla birlikte Grup Akdeniz’i kurdu ve bu toplulukla dönemin dikkat çeken çalışmaları arasında yer alan “Dün Öyle Bugün Böyle” albümünü yayımladı.</p>\n\n<p>Türkiye’de vokal müziğin akademik bir anlayışla ele alınmasına önemli katkılar sundu. Eurovision Türkiye elemelerine “İstemem” adlı bestesiyle katılarak derece elde etti. Reklam müzikleri, özel projeler ve Avrupa Birliği kapsamındaki uluslararası çalışmalarda yer aldı; eserleri yurt dışında da seslendirildi.</p>\n\n<p>Sanat yaşamı boyunca pek çok kıymetli isimle aynı sahneyi paylaşan Cihan Unat için TRT ile yürüttüğü çalışmalar, müzikal serüveninin güçlü bir ayağını oluşturdu. Müziği yalnızca icra eden değil, ona ruh kazandıran bir bestekâr olarak; Giresun/Görele’li şair Ahmet Kaçar’ın “Yeşeren Umutlar” adlı dörtlüğünü bestelemesiyle söz ile melodiyi derin bir ahenk içinde buluşturdu.</p>\n\n<p>“Can İlacım Giresun’um”, “Kırkından Sonra”, “Yeşeren Umutlar”, “İç Dostum”, “Devasız Aşk”, “Sensizlik Ölüm Şimdi”, “Ağustos Sıcağı”, “Kim Kanar Sana”, “Neredesin Şimdi?”, “Affediyorum”, “Elveda” ve “Hiç Değişmemişsin” gibi eserleri; yalnızca notalarda değil, dinleyenlerin kalbinde de yer buldu.</p>\n\n<p>Cihan Unat’ın sanat yolculuğunun en kalıcı yönlerinden biri eğitimci kimliğiydi. Milli Eğitim Bakanlığı bünyesinde uzun yıllar müzik öğretmenliği yaptı. Yüzlerce öğrencinin yeteneğini keşfetti, onlara sahne cesareti kazandırdı ve müziği hayatlarının ayrılmaz bir parçası hâline getirdi. Giresun Güzel Sanatlar Lisesi’nin kuruluş sürecinde aktif rol aldı.</p>\n\n<p>Cihan Unat için Giresun yalnızca bir memleket değil, ilham kaynağıydı. Yıllar boyunca Giresun’da düzenlediği konserlerle Türk müziğini şehirle buluşturdu; sahneye taşıdığı eserlerle dinleyicilerin hafızasında iz bıraktı.</p>\n\n<p>Türk müziğinin yalnızca sahnede değil, kurumsal bir yapı içinde de yaşaması gerektiğine inanan Cihan Unat, Bolahenk Türk Müziği Derneği’ni kurarak bu alanda önemli bir adım attı. Dernek, her yaştan müziksevere eğitim imkânı sunmayı, yeni sesler keşfetmeyi ve Türk müziğini daha geniş kitlelere ulaştırmayı amaçladı.</p>\n\n<p>Bolahenk çatısı altında düzenlenen konserler, kısa sürede Giresun’un kültür hayatında önemli bir yer edindi. Şefliğini üstlendiği korosu ile verdiği konserler sanat çevrelerinde geniş yankı uyandırdı. Bu çalışmalar, onun müziğe olan bağlılığının yalnızca bireysel üretimle sınırlı kalmadığını; toplumsal bir kültür bilinci oluşturma çabası taşıdığını da gösterdi.</p> \n\n<p>Giresun Üniversitesi Devlet Konservatuvarı’nın kurulmasına destek verdi ve burada ilk Türk Müziği Nazariyatı dersini vererek akademik temelin oluşmasına katkı sundu. En büyük hayallerinden biri üniversite bünyesinde bir koro kurmaktı. Bu hayalini gerçekleştirdi ve şefliğini üstlendiği koro ile iki konser verdi. Şefi olduğu koro ile verdiği ikinci konser, onun son sahnesi oldu. Konser sonunda dinleyicileriyle helalleşmesi, sanat yolculuğunun duygusal bir vedasıydı.</p>\n\n<p>Vefatının ardından koro, onun adını taşıyarak Giresun Üniversitesi Cihan Unat Türk Müziği Korosu olarak anılmaya başladı; bu isim, onun sanat mirasının üniversite çatısı altında yaşamaya devam edeceğinin en anlamlı göstergesi oldu.</p>\n\n<p>Mutlu bir evliliği olan Cihan Unat, ailesini hayatının merkezinde tutan bir eş, bir ağabey, bir baba, bir amca, bir dayı ve bir dedeydi. İki kızına sevgi ve sanat bilinciyle rehberlik etmiş; onların hayat yolculuğunda daima destekleyici olmuştur. Kızlarına verdiği isimler bile müziğe olan bağlılığının bir yansımasıydı: Ezgi ve Şehnaz… Hayatını adadığı sanat, onun evinde de bir anlam, bir isim ve bir hatıra olarak yaşamaya devam ediyordu.</p>\n\n<p>Aile içinde sevilen, sayılan ve enerjisiyle bulunduğu ortama neşe katan bir büyüktü. Kız kardeşleriyle güçlü bir bağa sahipti; yalnızca bir ağabey değil, aynı zamanda her zaman yanlarında duran bir yol arkadaşıydı. Yeğenleri için ise sevgi dolu gülüşüyle güven veren, sohbetiyle ilham olan bir aile büyüğüydü. Onun varlığı, aile sofralarında sıcak bir huzur, kalabalık anlarda ise birleştirici bir güç olurdu.</p>\n\n<p>Torunlarıyla geçirdiği her an, onun yüreğinde sakladığı o çocuksu masumiyetin yeniden filizlendiği anlardı. Zaman sanki yavaşlar, yüzündeki çizgiler yerini saf bir gülümsemeye bırakırdı. Onların küçücük ellerini tutarken gözlerindeki ışık yeniden parlar, kalbindeki sevgi kelimelere sığmayacak kadar büyürdü. O anlarda ne sahne vardı ne alkış… Sadece bir dedenin tarifsiz mutluluğu, bir çocuğun kahkahasında hayatı yeniden buluşu vardı. O kahkahalar, geride bıraktığı en ölümsüz eser olarak yüreklerde sonsuza dek çalmaya devam edecek.</p>\n\n<p>Cihan Unat, 20 Şubat 2025 tarihinde büyük bir sessizlikle aramızdan ayrıldı; sevenlerinin kalbinde derin bir boşluk bıraktı.</p>\n\n<p>Ardında yalnızca besteler değil; sevgiyle büyüyen bir aile, yetiştirdiği öğrenciler, kurulmasına katkı sunduğu kurumlar, vefalı dostlar ve güçlü bir sanat mirası bıraktı. Bugün adı eserlerinde, sesi öğrencilerinde, sıcaklığı ise ailesinin kalbinde yaşamaya devam ediyor.</p>\n<p>Onun adı artık yalnızca bir insanı değil; Giresun’un kültür hafızasında iz bırakan bir emeği, bir sesi ve müziğe adanmış bir ömrü temsil ediyor.</p>\n<p>Ruhu şad olsun, huzur içinde uyusun.</p>",
+      "is_active": 1,
+      "order_index": 1,
+      "created_at": "2026-02-21T23:04:11.000Z",
+      "updated_at": "2026-02-22T20:41:23.000Z"
+    },
+    {
+      "id": 6,
+      "slug": "eserleri",
+      "title": "Besteler",
+      "content": "Cihan Unat'a ait eserler.",
+      "is_active": 1,
+      "order_index": 2,
+      "created_at": "2026-02-22T20:40:31.000Z",
+      "updated_at": "2026-02-22T20:42:15.000Z"
+    }
+  ],
+  "photos": [],
+  "guestbook": [
+    {
+      "id": 1,
+      "name": "erim felek",
+      "email": null,
+      "image": null,
+      "message": "dsdfsd",
+      "is_approved": 1,
+      "created_at": "2026-02-22T11:37:05.000Z"
+    },
+    {
+      "id": 2,
+      "name": "erim felek",
+      "email": "dsfaf@mail.com",
+      "image": null,
+      "message": "dsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf dsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf vdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf dsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\n\n\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\n\n\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfv\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\n",
+      "is_approved": 1,
+      "created_at": "2026-02-22T11:54:48.000Z"
+    },
+    {
+      "id": 3,
+      "name": "fsdfksdlml",
+      "email": "fsdfmsdmk@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-Mt-NOyzgtexeejrdpss_hzev_bJtSvEBQ&s",
+      "message": "alşfmşsdlögfdsgidsfgçidfssfdf dsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf vdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf dsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\n\n\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdf\n\n\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfv\ndsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdlögfdsgidsfgçidfssfdfdsafşlmsalşfmşsdl",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:08:40.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet@example.com",
+      "image": null,
+      "message": "Yıllar geçse de o muazzam sesin kulaklarımızdan silinmeyecek. Büyük sanatçı, seni hiç unutmayacağız. Her şarkında ayrı bir hikaye, ayrı bir yaşanmışlık vardı.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Ayşe Kaya",
+      "email": "ayse@example.com",
+      "image": "https://i.pravatar.cc/150?img=1",
+      "message": "Sahnede devleşen, müziğiyle ruhumuza dokunan eşsiz insan. Mekanın cennet olsun.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Mehmet Demir",
+      "email": "mehmet@example.com",
+      "image": null,
+      "message": "Çok özlüyoruz. Eserlerinle yaşamaya devam ediyorsun.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Elif Yıldız",
+      "email": "elif@example.com",
+      "image": "https://i.pravatar.cc/150?img=5",
+      "message": "Senin şarkılarınla büyüdük, senin şarkılarınla ağladık. Yerin asla dolmayacak büyük usta. Huzur içinde uyu.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Can Öztürk",
+      "email": "can@example.com",
+      "image": null,
+      "message": "Müzik dünyası seninle çok daha güzeldi. Bıraktığın miras için sonsuz teşekkürler...",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Zeynep Tekin",
+      "email": "zeynep@example.com",
+      "image": "https://i.pravatar.cc/150?img=9",
+      "message": "Işıklar içinde uyu. Her plağını dinlediğimde sanki odamda şarkı söylüyormuşçasına bir his kaplıyor içimi.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Bora Aksoy",
+      "email": "bora@example.com",
+      "image": null,
+      "message": "Efsaneler ölmez, sadece şekil değiştirir. Sen de şarkılarınla sonsuzluğa ulaştın.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Cemre Aslan",
+      "email": "cemre@example.com",
+      "image": "https://i.pravatar.cc/150?img=12",
+      "message": "Manevi değerin paha biçilemez. İyi ki geçtin bu dünyadan, dimağımızda bıraktığın o güzel tat hiç kaybolmayacak.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Burak Çelik",
+      "email": "burak@example.com",
+      "image": null,
+      "message": "Bir neslin idolü, sesiyle yürekleri titreten adam...",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Selin Polat",
+      "email": "selin@example.com",
+      "image": "https://i.pravatar.cc/150?img=16",
+      "message": "Konserlerini en ön sıradan izleme şerefine nail oldum. O sahne tozu, o ihtişam... Asla unutamam. Ruhun şad olsun.",
+      "is_approved": 1,
+      "created_at": "2026-02-22T12:23:21.000Z"
+    },
+    {
+      "id": 14,
+      "name": "şehnaz ",
+      "email": "unar@gmail.com",
+      "image": "/guestbook_images/1771777100033_ChatGPT_Image_20__ub_2026_02_33_09.png",
+      "message": "vhjhjhhj",
+      "is_approved": 1,
+      "created_at": "2026-02-22T16:18:20.000Z"
+    },
+    {
+      "id": 15,
+      "name": "fdsf",
+      "email": "fsdf@hotmail.com",
+      "image": null,
+      "message": "fdf",
+      "is_approved": 1,
+      "created_at": "2026-02-22T16:24:24.000Z"
+    },
+    {
+      "id": 17,
+      "name": "fsdfsd",
+      "email": "bilgialmak28@gmail.com",
+      "image": null,
+      "message": "dsaf",
+      "is_approved": 1,
+      "created_at": "2026-02-22T18:23:00.000Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": 3,
+      "title": "Devasız Aşk & Cihan Unat",
+      "video_url": "https://www.youtube.com/watch?v=wRXORYwrmY8&list=RDwRXORYwrmY8&start_radio=1",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:47:32.000Z"
+    },
+    {
+      "id": 4,
+      "title": "Yeşeren Ümitlerin & Cihan Unat",
+      "video_url": "https://www.youtube.com/watch?v=Bn3RkCM8eqU",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:47:50.000Z"
+    },
+    {
+      "id": 5,
+      "title": "45. Sanat Yılı Konseri ",
+      "video_url": "https://www.youtube.com/watch?v=qhhtnt9AUqw&list=RDqhhtnt9AUqw&start_radio=1",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:49:07.000Z"
+    },
+    {
+      "id": 6,
+      "title": "TSM Konseri - Cihan Unat",
+      "video_url": "https://www.youtube.com/watch?v=CWAVbGMA_2Y&list=RDCWAVbGMA_2Y&start_radio=1",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:53:01.000Z"
+    },
+    {
+      "id": 7,
+      "title": "Yıldızların Altında - Giresun Üniversitesi Türk Müziği Korosu",
+      "video_url": "https://www.youtube.com/watch?v=SABAv1ztspk",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:54:37.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Yine Bir Gülnihal - Giresun Üniversitesi Türk Müziği Korosu",
+      "video_url": "https://www.youtube.com/watch?v=7XkKcO0u_-U",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:55:41.000Z"
+    },
+    {
+      "id": 9,
+      "title": "Rüzgar Söylüyor Şimdi O Yerlerde - Şef Cihan UNAT",
+      "video_url": "https://www.youtube.com/watch?v=7IEx7AoSRiE",
+      "is_youtube": 1,
+      "created_at": "2026-02-22T19:57:09.000Z"
+    }
+  ]
+}

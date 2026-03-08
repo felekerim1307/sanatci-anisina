@@ -1,0 +1,177 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-gold-300: #F3E5AB;
+  --color-gold-400: #E6C27A;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #AA8C2C;
+  --color-gold-700: #806921;
+
+  --animate-fade-in-up: fadeInUp 1.5s ease-out forwards;
+}
+
+@layer utilities {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 1.5s ease-out forwards;
+  }
+}
+
+:root {
+  --theme-dark: #1a1a1a;
+  --theme-gold: #D4AF37;
+  --foreground-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--theme-dark);
+}
+
+/* Scrollbar Özelleştirme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-gold);
+}
+
+/* --- Premium Admin Quill Editor Stilleri --- */
+.admin-quill-wrapper .ql-toolbar.ql-snow {
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 12px;
+}
+
+.admin-quill-wrapper .ql-toolbar.ql-snow .ql-stroke {
+  stroke: #D4AF37;
+}
+
+.admin-quill-wrapper .ql-toolbar.ql-snow .ql-fill {
+  fill: #D4AF37;
+}
+
+.admin-quill-wrapper .ql-toolbar.ql-snow .ql-picker {
+  color: #D4AF37;
+}
+
+.admin-quill-wrapper .ql-container.ql-snow {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.admin-quill-wrapper .ql-editor {
+  min-height: 500px;
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .admin-quill-wrapper .ql-editor {
+    padding: 3.5rem;
+    /* md:p-14 frontend matching */
+  }
+}
+
+@media (min-width: 1024px) {
+  .admin-quill-wrapper .ql-editor {
+    padding: 5rem;
+    /* lg:p-20 frontend matching */
+  }
+}
+
+.admin-quill-wrapper .ql-editor.ql-blank::before {
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+}
+
+/* --- Global Quill Tipografi Ayarları (Ön ve Arkayüz) --- */
+.ql-editor {
+  color: #d4d4d4 !important;
+  /* text-neutral-300 */
+  font-weight: 300 !important;
+  /* font-light */
+  line-height: 1.8 !important;
+  /* leading-relaxed */
+  font-size: 1.125rem !important;
+  /* prose-lg (18px) */
+  word-break: normal !important;
+  /* Kelime ortasından kırmayı ENELLİYOR */
+  overflow-wrap: normal !important;
+  /* Mantıksız hece bölünmelerini engeller */
+  white-space: pre-wrap !important;
+  /* Enter ve Shift+Enter ayarlarını korur */
+}
+
+@media (min-width: 768px) {
+  .ql-editor {
+    font-size: 1.25rem !important;
+    /* md:prose-xl (20px) */
+  }
+}
+
+/* Tüm gereksiz arka plan renklerini sil, şeffaf yap */
+.ql-editor * {
+  background-color: transparent !important;
+}
+
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3 {
+  color: rgba(212, 175, 55, 0.9) !important;
+  /* text-[#D4AF37]/90 */
+  font-weight: 300 !important;
+  /* font-light */
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.ql-editor h1 {
+  font-size: 2.25em !important;
+}
+
+.ql-editor h2 {
+  font-size: 1.8em !important;
+}
+
+.ql-editor h3 {
+  font-size: 1.5em !important;
+}
+
+.ql-editor p {
+  color: #d4d4d4 !important;
+  margin-top: 1.2em !important;
+  margin-bottom: 1.2em !important;
+}
+
+.ql-editor strong,
+.ql-editor b {
+  color: #ffffff !important;
+  font-weight: 400 !important;
+}
