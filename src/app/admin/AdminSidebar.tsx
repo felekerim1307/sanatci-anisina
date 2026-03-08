@@ -37,6 +37,9 @@ export default function AdminSidebar() {
                 <Link href="/admin/videolar" className="block px-4 py-2 rounded text-neutral-300 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37] transition-colors text-sm">
                     Videolar
                 </Link>
+                <Link href="/admin/sifre-degistir" className="block px-4 py-2 rounded text-neutral-300 hover:bg-[#D4AF37]/10 hover:text-[#D4AF37] transition-colors text-sm">
+                    ⚠️ Şifre Değiştir
+                </Link>
             </nav>
             <div className="p-4 border-t border-[#D4AF37]/20">
                 <Link href="/" className="block text-center px-4 py-2 text-sm text-neutral-400 hover:text-white transition-colors">
