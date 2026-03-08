@@ -6,9 +6,32 @@ import path from 'path';
 export async function DELETE(req: Request, { params }: { params: Promise<{ id: string }> }) {
     try {
         const id = (await params).id;
+
+        // 1. Önce fotoğrafın URL'sini bul
+        const [rows]: any = await pool.query('SELECT image_url FROM photos WHERE id = ?', [id]);
+
+        if (rows.length > 0) {
+            const imageUrl = rows[0].image_url;
+
+            // 2. Eğer yerel bir dosyaysa fiziksel olarak sil
+            if (imageUrl && imageUrl.startsWith('/galeri/')) {
+                const filePath = path.join(process.cwd(), 'public', imageUrl.replace(/^\//, ''));
+                try {
+                    if (fs.existsSync(filePath)) {
+                        fs.unlinkSync(filePath);
+                    }
+                } catch (fsError) {
+                    console.error("Fiziksel dosya silme hatası:", fsError);
+                }
+            }
+        }
+
+        // 3. Veritabanından kaydı sil
         await pool.query('DELETE FROM photos WHERE id = ?', [id]);
-        return NextResponse.json({ success: true, message: 'Fotoğraf silindi' });
+
+        return NextResponse.json({ success: true, message: 'Fotoğraf başarıyla silindi' });
     } catch (error: any) {
+        console.error("Silme hatası:", error);
         return NextResponse.json({ success: false, message: error.message }, { status: 500 });
     }
 }
