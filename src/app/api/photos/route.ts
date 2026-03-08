@@ -5,40 +5,11 @@ import path from 'path';
 
 export async function GET() {
     try {
-        // Veritabanından gelen fotoğrafları al
+        // Sadece veritabanında kayıtlı olan fotoğrafları getir (Source of Truth)
         const [rows] = await pool.query('SELECT * FROM photos ORDER BY created_at DESC');
-        let dbPhotos = rows as any[];
-
-        // public/galeri klasöründen manuel eklenen fotoğrafları al
-        const galleryPath = path.join(process.cwd(), 'public', 'galeri');
-        let localPhotos: any[] = [];
-
-        if (fs.existsSync(galleryPath)) {
-            const files = fs.readdirSync(galleryPath);
-            localPhotos = files
-                .filter(file => /\.(jpg|jpeg|png|webp|gif)$/i.test(file))
-                .filter(file => !dbPhotos.some(p => p.image_url === `/galeri/${file}`))
-                .map((file, index) => {
-                    // Dosya istatistiklerini alarak eklenme tarihini bulalım
-                    const stats = fs.statSync(path.join(galleryPath, file));
-                    return {
-                        id: 100000 + index, // DB çakışmasını engellemek için yüksek ID
-                        title: file.split('.').slice(0, -1).join('.') || 'Galeri Fotoğrafı',
-                        image_url: `/galeri/${file}`,
-                        created_at: stats.mtime.toISOString(), // Son değiştirme tarihi
-                        isLocal: true // Sadece silme arayüzünde filtrelemek için
-                    };
-                });
-        }
-
-        // Önce manuel lokal dosyaları, sonra veritabanındakileri birleştir
-        let allPhotos = [...localPhotos, ...dbPhotos];
-
-        // Fotoğrafları tarihe göre (En yeni ilk) sırala
-        allPhotos = allPhotos.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
-
-        return NextResponse.json({ success: true, data: allPhotos });
+        return NextResponse.json({ success: true, data: rows });
     } catch (error: any) {
+        console.error("Fotoğraf listeleme hatası:", error);
         return NextResponse.json({ success: false, message: error.message }, { status: 500 });
     }
 }
