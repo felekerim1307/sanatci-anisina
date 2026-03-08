@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# uploads & gallery (Keep these on server, ignore in git)
+/public/galeri/
+/public/guestbook_images/
+/public/uploads/
