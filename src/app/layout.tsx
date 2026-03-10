@@ -7,7 +7,7 @@ import Navigation from '@/components/Navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Cihan Unat ∞ - Bestekâr · Ses Sanatçısı · Koro Şefi',
+  title: 'Cihan Unat ∞ Hatırasına Saygıyla',
   description: 'Sanat asla ölmez...',
 };
 

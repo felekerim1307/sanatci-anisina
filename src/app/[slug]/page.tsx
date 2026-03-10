@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     return {
-        title: `${page.title} - Sanatçı Anısına`,
+        title: `${page.title} - Cihan Unat ∞ Hatırasına Saygıyla`,
         description: page.content ? page.content.substring(0, 150).replace(/<[^>]*>?/gm, '') : '',
     };
 }
